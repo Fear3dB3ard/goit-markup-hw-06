@@ -686,3 +686,44 @@ footer {
 .svg-modal-window:focus {
   
 }
+ .subscribe-footer{
+   line-height: 1.5;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #ffffffff;
+  margin-bottom: 16px;
+  
+ }
+ .subscribe-div{
+
+ }
+ 
+.button-subscribe{
+  color: var(--WHITE, #FFF);
+text-align: center;
+background-color: #4d5ae5;
+/* Button Text */
+
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.64px;
+display: inline-flex;
+padding: 8px 24px;
+justify-content: center;
+align-items: center;
+
+
+}
+ .svg-span{
+  padding-left: 16px;
+ }
+.ul-list-ssubscribe{
+  display: flex;
+ 
+}
+.form-subscribe{
+  display: flex;
+}
