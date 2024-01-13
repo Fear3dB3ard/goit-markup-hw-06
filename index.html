@@ -458,10 +458,20 @@
           </textarea>
         </div>
         <div class="lable-div">
-          <input class="input-checkbox visually-hidden" id="user-privacy" type="checkbox" name="user-privacy">
-          <label class="lable-user-privacy" for="" id="user-privacy">I accept the terms and conditions of the <span
-              class="lable-span"></span></label>
+          <input class="input-checkbox visually-hidden" value="true" id="user-privacy" type="checkbox"
+            name="user-privacy" checked>
+          <label class="lable-user-privacy" for="" id="user-privacy">
+            <span class="lable-span">
+              <svg class="svg-class-label" width="10" height="8">
+                <use href="./images/icons.svg#checkbox">
+                </use>
+              </svg> </span>I accept the terms and conditions of the
+            <a class="link-policy" href="">Privacy Policy</a>
+          </label>
         </div>
+        <button class="custom-button">
+          Send
+        </button>
       </form>
 
     </div>
